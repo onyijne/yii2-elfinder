@@ -1,0 +1,26 @@
+{
+    "name": "tecsin/yii2-elfinder",
+    "description": "Elfinder file manager for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","elfinder","file","manager"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Samuel Onyijne",
+            "email": "samuel@sajflow.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "studio-42/elfinder": "~2.1",
+        "nao-pon/elfinder-flysystem-driver-ext": "*",
+        "nao-pon/flysystem-google-drive": "~1.1",
+        "bower-asset/jquery": "^1.11",
+        "bower-asset/jquery-ui": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "tecsin\\elfinder\\": ""
+        }
+    }
+}
