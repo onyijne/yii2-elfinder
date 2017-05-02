@@ -14,9 +14,7 @@
         "yiisoft/yii2": "*",
         "studio-42/elfinder": "~2.1",
         "nao-pon/elfinder-flysystem-driver-ext": "*",
-        "nao-pon/flysystem-google-drive": "~1.1",
-        "bower-asset/jquery": "^1.11",
-        "bower-asset/jquery-ui": "^1.9"
+        "nao-pon/flysystem-google-drive": "~1.1"
     },
     "autoload": {
         "psr-4": {
